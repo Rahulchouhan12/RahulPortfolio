@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			margin: 0px;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			background-color: #202638;
+			font-family: calibri;
+		}
+		.navbar{
+			background-color: #404555;
+			height: 750px;
+			width: 20%;
+			
+		}
+
+		.bgnav{
+			border-radius: 50%;
+			height: 120px;
+			width: 120px;
+			border: 2px solid gray;
+			box-shadow: 0px 0px 5px 0px;
+			
+		}
+		.bgnav:hover{
+			height: 130px;
+			width: 130px;
+			transition: 0.5s;
+		}
+		.had{
+			padding-top: 1px;
+			
+			color: white;
+			font-weight: bold;
+		}
+		.navbar p{
+			color: ghostwhite;
+			padding: 30px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
+
+		.navbar p i{
+			font-size: 25px;
+		}
+		hr{
+			background-color: gray;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.buttons{
+			display: flex;
+			justify-content: center;
+			text-decoration: none;
+		}
+
+		.buttons button{
+			height:50px;
+			width: 200px;
+			margin-top:15px ;
+		}
+
+		.about {
+			display: flex;
+		}
+
+		
+        .tables {
+        	margin: 100px;
+            width: 700px;
+            height: 500px;
+            border: 1px solid gray;
+            background-color: #404555;
+            border-radius: 0px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left:200px ;
+            color: white;
+           
+        }
+
+        .tables th, td {
+                    
+            border-bottom: 0px solid #ddd;
+        }
+
+        .tables th {
+            background-color: #fff;
+            color: gray;
+        }
+        @media screen and (max-width:800px){
+			body{
+				display: block;
+			}
+
+			.navbar{
+				width: 100%;
+			}
+
+			.about{
+				display: unset;
+			}
+			.tables{
+				margin: 0px;
+				max-width: 280px;
+
+			}
+
+	</style>
+</head>
+<body>
+	<section class="navbar">
+		<div class="had"><h1 align="center">RAHUL CHOUHAN</h1></div>
+		<h3 align="center"><img src="https://media.licdn.com/dms/image/D5603AQGgA0VI5oIzHA/profile-displayphoto-shrink_400_400/0/1688996728526?e=1711584000&v=beta&t=66zle8UP5M_pGLBgHUfhClFn8-UKFqwi_La8Xehq7zg" align="center" class="bgnav" ></h3>
+		<p align="center"> I am Rahul Chouhan, a focused B.Tech student specializing in Data Science at Shri Vaishnav Vidyapeeth Vishwavidyalaya
+		<br>
+		<hr></p>
+
+
+		<div class="buttons">
+			<table>
+				<tr><td><a href="index.html"><button>About</button></a></td><tr>
+				<tr><td><a href="education.html"><button>Education</button></a></td><tr>
+				<tr><td><a href="project.html"><button>Projects</button></a></td><tr>
+				<tr><td><a href="https://drive.google.com/file/d/1xOMy1ohvnjIIfuc88O0f4Fnlb33oDYb9/view?usp=drive_link"><button>Resume</button></a></td><tr>
+			</table>
+			
+		</div>
+	</section>
+	<section class="about"> 
+		
+    <table class="tables">
+        <thead>
+            <tr>
+                <th>Institution</th>
+                <th>Qualification</th>
+                <th>CGPA/Percentage</th>
+                <th>Academic Years</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore</td>
+                <td>B-tech in Computer Science and Data Science in Collaboration with IBM</td>
+                <td>7.80</td>
+                <td>2020-2024</td>
+            </tr>
+            <tr>
+                <td>Kendriya Vidyalaya Ujjain</td>
+                <td>Higher Secondary (XII std)</td>
+                <td>79.4</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Kendriya Vidyalaya Ujjain</td>
+                <td>Secondary (X std)</td>
+                <td>75.8</td>
+                <td>2018</td>
+            </tr>
+        </tbody>
+    </table>
+	</section>
+</body>
+</html>
