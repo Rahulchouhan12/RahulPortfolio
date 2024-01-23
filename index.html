@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			margin: 0px;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			background-color: #202638;
+			font-family: calibri;
+		}
+		.navbar{
+			background-color: #404555;
+			height: 750px;
+			width: 20%;
+			
+		}
+
+		.bgnav{
+			border-radius: 50%;
+			height: 120px;
+			width: 120px;
+			border: 2px solid gray;
+			box-shadow: 0px 0px 5px 0px;
+			
+		}
+
+		.bgnav:hover{
+			height: 130px;
+			width: 130px;
+			transition: 0.5s;
+		}
+		.had{
+			padding-top: 1px;
+			
+			color: white;
+			font-weight: bold;
+		}
+		.navbar p{
+			color: ghostwhite;
+			padding: 30px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
+
+		.navbar p i{
+			font-size: 25px;
+		}
+		hr{
+			background-color: gray;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.buttons{
+			display: flex;
+			justify-content: center;
+			text-decoration: none;
+		}
+
+		.buttons button{
+			height:50px;
+			width: 200px;
+			margin-top:15px ;
+		}
+
+		.about {
+			display: flex;
+		}
+
+		.intro{
+			
+			width: 700px;
+			padding-left: 50px;
+			border: 0px solid red;
+		}
+
+		.intro h1{
+			font-size: 1.5cm;
+			font-weight: bold;
+			color: white;
+			margin-bottom: 0px;
+		}
+
+		.h2title{
+			color: gray;
+			font-size: 0.8cm;
+			margin-top:0px ;
+			font-weight: bold;
+		}
+
+
+		.introline{
+			color: gray;
+			text-align: justify;
+		}
+
+		.profile{
+			height: 300px;
+			width: 400px;
+			border: 0px solid lime;
+		}
+		
+		.intro button{
+			float: right;
+			height:40px;
+			width: 130px;
+			margin-top:15px ;		
+		}
+
+		.profile img{
+			margin: 70px;
+			height: 300px;
+			width: 300px;
+		}
+
+		@media screen and (max-width:800px){
+			body{
+				display: block;
+			}
+
+			.navbar{
+				width: 100%;
+			}
+
+			.about{
+				display: unset;
+			}
+
+			.intro{
+				max-width: 320px;
+			}
+			.profile{
+				width: 320px;
+			}
+
+			.intro button{
+				width: 80%;
+
+			}
+
+			.profile img{
+				height: 80%;
+				width: 80%;
+				border-radius: 50%;
+
+			}
+
+
+		}
+
+	</style>
+</head>
+<body>
+	<section class="navbar">
+		<div class="had"><h1 align="center">RAHUL CHOUHAN</h1></div>
+		<h3 align="center"><img src="https://media.licdn.com/dms/image/D5603AQGgA0VI5oIzHA/profile-displayphoto-shrink_400_400/0/1688996728526?e=1711584000&v=beta&t=66zle8UP5M_pGLBgHUfhClFn8-UKFqwi_La8Xehq7zg" align="center" class="bgnav" ></h3>
+		<p align="center"> I am Rahul Chouhan, a focused B.Tech student specializing in Data Science at Shri Vaishnav Vidyapeeth Vishwavidyalaya
+		<br>
+		<hr></p>
+
+
+		<div class="buttons">
+			<table>
+				<tr><td><a href="index.html"><button>About</button></a></td><tr>
+				<tr><td><a href="education.html"><button>Education</button></a></td><tr>
+				<tr><td><a href="project.html"><button>Projects</button></a></td><tr>
+				<tr><td><a href="https://drive.google.com/file/d/1xOMy1ohvnjIIfuc88O0f4Fnlb33oDYb9/view?usp=drive_link"><button>Resume</button></a></td><tr>
+			</table>
+			
+		</div>
+	</section>
+	<section class="about"> 
+		<div class="intro">
+			
+			<h1> RAHUL CHOUHAN</h1>
+			<p class="h2title"> Aspiring Data Scientist</p>
+
+			<div class="introline"> I am Rahul Chouhan, a focused B.Tech student specializing in Data Science at Shri Vaishnav Vidyapeeth Vishwavidyalaya. Proficient in C, C++, and Python, my academic journey has been marked by a CGPA of 7.80. Engaging in projects like Vehicle Health Monitoring and Crop Disease Prediction, I showcase skills in full-stack development and AI integration.
+				<br><br>
+			My proficiency extends to web development, utilizing HTML, CSS, JavaScript, and Django. I am passionate about data analytics, artificial intelligence, and machine learning, reflected in my practical applications and projects. Beyond technical skills, I bring a friendly, creative approach, eager to contribute to the dynamic landscape of computer science with a commitment to continuous learning and innovation.
+		   
+			<h4> Contact details</h4>
+			<i class="fa fa-phone"></i>  Mob No :-  8839105672<br>
+			<i class="fa fa-envelope"></i>  Gmail  :-   Rahulchouhan97cv@gmail.com<br>
+			<i class="fa fa-github"></i>  Github :- <a href="https://github.com/Rahulchouhan12" style="text-decoration:none;color: gray;"> Rahulchouhan12</a> <br>
+			<i class="fa fa-home"></i>  Address:- Ujjain 456010 M.P INDIA<br>
+			
+
+		    </div>
+						
+		</div>
+		<div class="profile">
+			<img src="https://lh3.googleusercontent.com/a/ACg8ocJ20Ze6Gejjwtz729PkyZuQ2D6f7ADAVcldIgJwzRPfeA=s396-c-no" >
+		</div>
+
+	</section>
+</body>
+</html>
